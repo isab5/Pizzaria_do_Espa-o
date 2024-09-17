@@ -27,4 +27,11 @@ margin-right: 150px;
 font-size: 1.2rem;
 }
 
+.site-logo {
+    width: 180px;
+    margin-top: -85px;
+    max-width: 100%;
+    height: auto;
+    margin-right: 1500px;
+}
  

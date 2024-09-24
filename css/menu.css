@@ -3,6 +3,7 @@
 
 body{
     font-family: "Montserrat", sans-serif;
+    padding-top: 150px;
 }
 
 *{
@@ -11,6 +12,13 @@ body{
     box-sizing: border-box;
 }
 
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
 .site-header{
     background-color: #000152;
     width: 100%;
@@ -35,3 +43,40 @@ font-size: 1.2rem;
     margin-right: 1500px;
 }
  
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+     max-width: 1200px;
+     margin: 40px auto;
+    padding: 0 20px;
+
+}
+
+.article-content{
+    flex: 3;
+    background-color: rgb(245, 193, 49);
+    padding: 40px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgb(46, 45, 43);
+    border-radius: 50px;
+}
+
+.section-title{
+    font-size: 1.2rem;
+    text-align: end;
+    margin-right: 100px;
+
+}
+
+.section-text{
+    font-size: 1.2rem;
+    text-align: end;
+    margin-right: 100px;
+}
+
+.image-figure{
+border-radius: 20px;
+max-width: 100%;
+height: auto;
+}

@@ -15,6 +15,8 @@ body{
     --cores-header-footer: #000152;
     --cor-section: rgb(245, 193, 49);
     --cor-texto-header-footer: #fff;
+    --button-cor: #fff;
+    --button-cor-hover: #000560;
 }
 
 .site-header {
@@ -122,4 +124,16 @@ textarea {
 .footer-copy {
     font-size: 0.9em;
     color: var(--cor-texto-header-footer);
+}
+
+button {
+    margin-top: 10px;
+    width: 10%;
+    background-color: var(--button-cor);
+    border: 1px solid #000;
+}
+
+button:hover {
+    background-color: var(--button-cor-hover);
+    color: var(--button-cor);
 }

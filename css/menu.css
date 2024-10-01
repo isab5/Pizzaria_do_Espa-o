@@ -10,6 +10,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 }
 
 header{
@@ -47,36 +48,76 @@ font-size: 1.2rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-     max-width: 1200px;
-     margin: 40px auto;
+    max-width: 1200px;
+    margin: 40px auto;
     padding: 0 20px;
 
 }
 
 .article-content{
     flex: 3;
-    background-color: rgb(245, 193, 49);
-    padding: 40px;
-    margin-bottom: 20px;
+    background-color: rgb(248, 196, 53);
+    padding: 70px;
     box-shadow: 0 2px 4px rgb(46, 45, 43);
     border-radius: 50px;
+    justify-content: flex-start;
 }
 
 .section-title{
     font-size: 1.2rem;
-    text-align: end;
-    margin-right: 100px;
-
+    text-align: center;
 }
 
 .section-text{
     font-size: 1.2rem;
-    text-align: end;
-    margin-right: 100px;
+    text-align: justify;
+    margin-bottom: 25px;
+    margin-top: 40px;
 }
 
 .image-figure{
-border-radius: 20px;
-max-width: 100%;
-height: auto;
+    border-radius: 20px;
+    max-width: 700px;
+    height: auto;
+
 }
+
+.flex {
+	display: flex;
+    width: 60%;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.item {
+    flex: 5px;
+	margin: 5px;
+	background: rgb(255, 255, 255);
+	text-align: center;
+    box-shadow: 0 2px 4px rgb(46, 45, 43);
+    border-radius: 20px;
+    margin: 30px;
+}
+
+.image-bebidas{
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0.5px 1px rgb(160, 156, 148);
+}
+
+.titulo-bebida{
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 20px;
+}
+
+.text-bebida{
+    font-size: 1.2rem;
+    padding-top: 30px;
+    font-weight: 400;
+    text-align: justify;
+    padding: 30px;
+}
+
+

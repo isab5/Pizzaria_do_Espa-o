@@ -6,6 +6,13 @@ body{
     padding-top: 150px;
 }
 
+:root {
+    --cores-header-footer: #000152;
+    --cor-section: rgb(245, 193, 49);
+    --cor-texto-header-footer: #fff;
+    --cor-texto-button: black;
+} 
+
 *{
     margin: 0;
     padding: 0;
@@ -83,20 +90,18 @@ font-size: 1.2rem;
 }
 
 .flex {
-	display: flex;
-    width: 60%;
     margin-left: 40px;
     margin-right: 40px;
+    display: flex;
 }
 
 .item {
-    flex: 5px;
-	margin: 5px;
 	background: rgb(255, 255, 255);
 	text-align: center;
     box-shadow: 0 2px 4px rgb(46, 45, 43);
     border-radius: 20px;
     margin: 30px;
+    width: 25rem;
 }
 
 .image-bebidas{
@@ -119,5 +124,53 @@ font-size: 1.2rem;
     text-align: justify;
     padding: 30px;
 }
+
+.button{
+    background-color: var(--cores-header-footer);
+    line-height: 4rem;
+    width: 10rem;
+    color: var(--cor-texto-header-footer);
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.button:hover{
+    background-color: var(--cor-section);
+    color: var(--cor-texto-button);
+}
+
+.site-footer {
+    background-color: var(--cores-header-footer);
+    color: var(--cor-texto-header-footer);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.contact-info {
+    margin-bottom: 10px;
+}
+
+.author-name,
+.author-email {
+    margin-bottom: 5px;
+    color: fff;
+}
+
+.email-link {
+    color: var(--cor-texto-header-footer);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.email-link:hover {
+    color: var(--cor-section);
+}
+
+.footer-copy {
+    font-size: 0.9em;
+    color: var(--cor-texto-header-footer);
+}
+
 
 
